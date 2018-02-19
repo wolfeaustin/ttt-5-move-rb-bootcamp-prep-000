@@ -13,5 +13,6 @@ def move()
 end
 
 def input_to_index (input)
-  input = input -1
+  input = input.to_i - 1
+  input.to_s 
 end 
